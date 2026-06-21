@@ -12,7 +12,7 @@
 
 **NETGITS QUIZ** (Codename: *Examiner Pro*) is an advanced, high-performance local network examination system built using **Python 3** and **PyQt6**. It features an integrated HTTP server tailored for schools, universities, and training centers to manage and conduct secure exams seamlessly across local area networks (LAN). 
 
-Designed with a high emphasis on **Full Accessibility (A11y)**, it ensures absolute compliance with modern inclusion standards, making digital assessment accessible to everyone, including users with visual or reading difficulties.
+Designed with a high emphasis on **Full Accessibility (A11y)**, it ensures absolute compliance with modern inclusion standards, making digital assessment accessible to everyone, including users with visual, reading, or learning difficulties.
 
 [🌐 Visit Official Website](https://www.netgits.com) | [📧 Support Email](mailto:adam-mahmoud@netgits.com)
 
@@ -48,12 +48,11 @@ Designed with a high emphasis on **Full Accessibility (A11y)**, it ensures absol
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Quick Start & Installation
 
-### Prerequisites
-* Python 3.8 or higher installed on the host/admin machine.
+You can download, install dependencies, and run the system using our automated setup scripts.
 
-### 1. Clone the Repository
+### 🐧 For Linux & macOS (Bash)
+Open your terminal and run this one-liner to automate the entire process:
 ```bash
-git clone [https://github.com/NETGITS/netgits-quiz.git](https://github.com/NETGITS/netgits-quiz.git)
-cd netgits-quiz
+curl -sSL [https://raw.githubusercontent.com/NETGITS/netgits-quiz/main/setup.sh](https://raw.githubusercontent.com/NETGITS/netgits-quiz/main/setup.sh) | bash
